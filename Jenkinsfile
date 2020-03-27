@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'bin/ci.sh'
+                sh 'bash ./bin/ci.sh'
             }
         }
     }
